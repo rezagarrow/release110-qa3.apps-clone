@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 19,
+  "Id": 11,
+  "VersionId": 11,
+  "Name": "Request",
+  "PluralName": "Requests",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
