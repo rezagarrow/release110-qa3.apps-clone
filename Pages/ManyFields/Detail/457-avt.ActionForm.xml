@@ -1,0 +1,256 @@
+<module type="ActionForm" version="05.10.10.00">
+    <moduleID>457</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachetime>0</cachetime>
+    <color />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions />
+    <title>View Form</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>de9ecb89-f581-4f38-a328-7c5ad31c8148</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Form</definition>
+    <moduledefinition>avt.Action Form</moduledefinition>
+    <content type="ActionForm" version="05.10.10.00"><![CDATA[&lt;ActionForm&gt;
+  &lt;Fields&gt;
+    &lt;Field&gt;
+      &lt;Id&gt;&lt;![CDATA[121]]&gt;&lt;/Id&gt;
+      &lt;Title&gt;&lt;![CDATA[]]&gt;&lt;/Title&gt;
+      &lt;ShortDesc&gt;&lt;![CDATA[]]&gt;&lt;/ShortDesc&gt;
+      &lt;CustomAttributesJson&gt;&lt;![CDATA[[]]]&gt;&lt;/CustomAttributesJson&gt;
+      &lt;IsEnabled&gt;True&lt;/IsEnabled&gt;
+      &lt;OverrideName&gt;c_ViewTemplate&lt;/OverrideName&gt;
+      &lt;Name&gt;c_ViewTemplate&lt;/Name&gt;
+      &lt;HelpText&gt;&lt;![CDATA[]]&gt;&lt;/HelpText&gt;
+      &lt;ShowCondition&gt;&lt;![CDATA[]]&gt;&lt;/ShowCondition&gt;
+      &lt;ValidationCondition&gt;&lt;![CDATA[]]&gt;&lt;/ValidationCondition&gt;
+      &lt;CanValidate&gt;&lt;![CDATA[True]]&gt;&lt;/CanValidate&gt;
+      &lt;BindShow&gt;&lt;![CDATA[]]&gt;&lt;/BindShow&gt;
+      &lt;BindEnable&gt;&lt;![CDATA[]]&gt;&lt;/BindEnable&gt;
+      &lt;BindPreserveLayout&gt;&lt;![CDATA[False]]&gt;&lt;/BindPreserveLayout&gt;
+      &lt;BindValue&gt;&lt;![CDATA[]]&gt;&lt;/BindValue&gt;
+      &lt;BindOnChange&gt;&lt;![CDATA[]]&gt;&lt;/BindOnChange&gt;
+      &lt;InputType&gt;static-text&lt;/InputType&gt;
+      &lt;InputData&gt;{&quot;Value&quot;:&quot;\u003cdiv class=\&quot;entity-details-container\&quot;\u003e\r\n    \u003cdiv class=\&quot;properties-container text\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eshort_text\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eText:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Text=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container largetext\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003enotes\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eLarge Text:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:LargeText=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container boolean\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003echeck_circle_outline\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eBool:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Bool=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container integer\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eInt:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Int=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container decimal\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elooks_one\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDec:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Dec=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container date\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDate:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:Date=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetime\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003etoday\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDateTime:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:DateTime:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container datetimeoffset\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003ecalendar_today\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eDateTimeLocal:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:DateTimeLocal:ISO]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|MM/dd/yyyy hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container time\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003eaccess_time\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eTime:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[DateTime:Convert(Value=\&quot;[original:Time:FullIso=]\&quot;, TimeZone=\&quot;UserTime\&quot;)=\u0027-\u0027|hh:mm tt]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container email\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003email_outline\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eEmail:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e\r\n            \u003ca href=\&quot;mailto:[original:Email=\u0027-\u0027]\&quot;\u003e[original:Email=\u0027-\u0027]\u003c/a\u003e\r\n        \u003c/div\u003e\r\n    \u003c/div\u003e\r\n    \u003cdiv class=\&quot;properties-container url\&quot;\u003e\r\n        \u003cdiv class=\&quot;entity-property\&quot;\u003e\r\n            \u003cspan class=\&quot;material-icons\&quot;\u003elaptop\u003c/span\u003e\r\n            \u003cspan class=\&quot;entity-property-name\&quot;\u003eURL:\u003c/span\u003e\r\n        \u003c/div\u003e\r\n        \u003cdiv class=\&quot;entity-value\&quot;\u003e[original:URL=\u0027-\u0027]\u003c/div\u003e\r\n    \u003c/div\u003e\r\n\u003c/div\u003e&quot;}&lt;/InputData&gt;
+      &lt;Value&gt;&lt;![CDATA[&lt;div class=&quot;entity-details-container&quot;&gt;
+    &lt;div class=&quot;properties-container text&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;short_text&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Text:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Text=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container largetext&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;notes&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Large Text:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:LargeText=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container boolean&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;check_circle_outline&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Bool:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Bool=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container integer&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Int:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Int=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container decimal&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;looks_one&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Dec:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Dec=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container date&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;calendar_today&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Date:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:Date=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container datetime&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;today&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;DateTime:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[DateTime:Convert(Value=&quot;[original:DateTime:ISO]&quot;, TimeZone=&quot;UserTime&quot;)=&#39;-&#39;|MM/dd/yyyy hh:mm tt]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container datetimeoffset&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;calendar_today&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;DateTimeLocal:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[DateTime:Convert(Value=&quot;[original:DateTimeLocal:ISO]&quot;, TimeZone=&quot;UserTime&quot;)=&#39;-&#39;|MM/dd/yyyy hh:mm tt]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container time&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;access_time&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Time:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[DateTime:Convert(Value=&quot;[original:Time:FullIso=]&quot;, TimeZone=&quot;UserTime&quot;)=&#39;-&#39;|hh:mm tt]&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container email&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;mail_outline&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;Email:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;
+            &lt;a href=&quot;mailto:[original:Email=&#39;-&#39;]&quot;&gt;[original:Email=&#39;-&#39;]&lt;/a&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;properties-container url&quot;&gt;
+        &lt;div class=&quot;entity-property&quot;&gt;
+            &lt;span class=&quot;material-icons&quot;&gt;laptop&lt;/span&gt;
+            &lt;span class=&quot;entity-property-name&quot;&gt;URL:&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;entity-value&quot;&gt;[original:URL=&#39;-&#39;]&lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/Value&gt;
+      &lt;IsRequired&gt;False&lt;/IsRequired&gt;
+      &lt;IsActive&gt;True&lt;/IsActive&gt;
+      &lt;EnableCondition /&gt;
+      &lt;CssClass&gt;&lt;![CDATA[]]&gt;&lt;/CssClass&gt;
+      &lt;FirstCssClass&gt;&lt;![CDATA[]]&gt;&lt;/FirstCssClass&gt;
+      &lt;CssStyles&gt;&lt;![CDATA[]]&gt;&lt;/CssStyles&gt;
+      &lt;LabelCssClass&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssClass&gt;
+      &lt;LabelCssStyles&gt;&lt;![CDATA[]]&gt;&lt;/LabelCssStyles&gt;
+      &lt;CustomValidator1 /&gt;
+      &lt;CustomValidator2 /&gt;
+      &lt;ValidationGroup /&gt;
+      &lt;GroupValidator /&gt;
+      &lt;DisableAutocomplete&gt;False&lt;/DisableAutocomplete&gt;
+      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;RowIndex&gt;1&lt;/RowIndex&gt;
+      &lt;ColSpan&gt;12&lt;/ColSpan&gt;
+      &lt;ColOffset&gt;0&lt;/ColOffset&gt;
+    &lt;/Field&gt;
+  &lt;/Fields&gt;
+  &lt;Settings&gt;
+    &lt;Title&gt;View Form&lt;/Title&gt;
+    &lt;CssName&gt;view-form&lt;/CssName&gt;
+    &lt;Version&gt;5.10.0&lt;/Version&gt;
+    &lt;Build&gt;5.10.10&lt;/Build&gt;
+    &lt;CultureCode&gt;en&lt;/CultureCode&gt;
+    &lt;RenderContext&gt;Form&lt;/RenderContext&gt;
+    &lt;FrontEndTemplate /&gt;
+    &lt;HasCustomLayout&gt;False&lt;/HasCustomLayout&gt;
+    &lt;ShowLoading&gt;False&lt;/ShowLoading&gt;
+    &lt;LoadingBarsColor&gt;#00c0ef&lt;/LoadingBarsColor&gt;
+    &lt;LoadingBackgroundColor&gt;#fff&lt;/LoadingBackgroundColor&gt;
+    &lt;LoadingText /&gt;
+    &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
+    &lt;LayoutHtml&gt;&lt;![CDATA[]]&gt;&lt;/LayoutHtml&gt;
+    &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
+    &lt;LabelAlign&gt;right&lt;/LabelAlign&gt;
+    &lt;LabelWidth&gt;3&lt;/LabelWidth&gt;
+    &lt;FieldSpacing&gt;normal&lt;/FieldSpacing&gt;
+    &lt;OpenFormMode&gt;Always&lt;/OpenFormMode&gt;
+    &lt;ModuleId&gt;457&lt;/ModuleId&gt;
+    &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
+    &lt;TabId&gt;61&lt;/TabId&gt;
+    &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
+    &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
+    &lt;FormTemplate&gt;Material&lt;/FormTemplate&gt;
+    &lt;FormTemplateFolder&gt;/DesktopModules/DnnSharp/ActionForm/templates/Form/Material&lt;/FormTemplateFolder&gt;
+    &lt;ModuleId&gt;457&lt;/ModuleId&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;EnableReports&gt;False&lt;/EnableReports&gt;
+    &lt;ClientSideValidation&gt;True&lt;/ClientSideValidation&gt;
+    &lt;RequiredFieldAllowsWhiteSpace&gt;False&lt;/RequiredFieldAllowsWhiteSpace&gt;
+    &lt;OnFocusoutValidation&gt;False&lt;/OnFocusoutValidation&gt;
+    &lt;ShowTooltips&gt;False&lt;/ShowTooltips&gt;
+    &lt;ShowTooltipTitle&gt;True&lt;/ShowTooltipTitle&gt;
+    &lt;ShowFormCondition /&gt;
+    &lt;InitJs&gt;&lt;![CDATA[]]&gt;&lt;/InitJs&gt;
+    &lt;PopupWidth&gt;600&lt;/PopupWidth&gt;
+    &lt;WidthCoordinate&gt;px&lt;/WidthCoordinate&gt;
+    &lt;PopupHeight /&gt;
+    &lt;jQueryTheme&gt;sunny&lt;/jQueryTheme&gt;
+    &lt;SubmitHiddenFields&gt;False&lt;/SubmitHiddenFields&gt;
+    &lt;IncludeBootstrap&gt;True&lt;/IncludeBootstrap&gt;
+    &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+    &lt;FloatingLabels&gt;False&lt;/FloatingLabels&gt;
+    &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
+    &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
+    &lt;Background /&gt;
+    &lt;TextColor /&gt;
+    &lt;Padding&gt;0&lt;/Padding&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn457&lt;/BaseId&gt;
+    &lt;PopupName /&gt;
+    &lt;LeftSidebarHtml /&gt;
+    &lt;RightSidebarHtml /&gt;
+    &lt;RootClasses /&gt;
+    &lt;LocalizedStringsUrl&gt;/DesktopModules/DnnSharp/ActionForm/AdminApi.ashx?method=GetLocalization&amp;amp;locale=en-US&amp;amp;section=FrontEnd&lt;/LocalizedStringsUrl&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+  &lt;/Settings&gt;
+  &lt;Actions xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;ShowError&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;Condition&gt;![HasRole:8] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/Condition&gt;
+      &lt;LastModified&gt;2020-11-02T16:35:02.593&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Message&quot;:&quot;You are not allowed to view this item.&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;457&lt;/ModuleId&gt;
+      &lt;EventName&gt;init&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Action.CheckViewPermissions&quot;,&quot;PAP_GeneratedCondition&quot;:&quot;![HasRole:8] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Action.CheckViewPermissions&lt;/PAP_InternalIdentifier&gt;
+        &lt;PAP_GeneratedCondition&gt;![HasRole:8] &amp;amp;&amp;amp; ![HasRole:5] &amp;amp;&amp;amp; ![HasRole:6] &amp;amp;&amp;amp; ![HasRole:7]&lt;/PAP_GeneratedCondition&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;InjectData&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2020-11-02T16:35:02.593&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;Data&quot;:[{&quot;name&quot;:&quot;original:Text&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:LargeText&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Bool&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Int&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Dec&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Date&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:DateTime&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:DateTimeLocal&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Time&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:Email&quot;,&quot;value&quot;:&quot;&quot;},{&quot;name&quot;:&quot;original:URL&quot;,&quot;value&quot;:&quot;&quot;}]}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;457&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.InitializeVariablesWithDefaultValues&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.InitializeVariablesWithDefaultValues&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+    &lt;ActionInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;ActionType&gt;PlantAnApp.ReadEntity.0.ManyField&lt;/ActionType&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;LastModified&gt;2020-11-02T16:35:02.61&lt;/LastModified&gt;
+      &lt;LastModifiedBy&gt;2&lt;/LastModifiedBy&gt;
+      &lt;ActionData&gt;{&quot;RecordId&quot;:&quot;[QueryString:ManyFieldId=]&quot;,&quot;OutputToken&quot;:&quot;original&quot;}&lt;/ActionData&gt;
+      &lt;ModuleId&gt;457&lt;/ModuleId&gt;
+      &lt;EventName&gt;preinit&lt;/EventName&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;PreInit.LoadVariablesValues&quot;,&quot;EntityIdentifier&quot;:&quot;ManyField&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;PreInit.LoadVariablesValues&lt;/PAP_InternalIdentifier&gt;
+        &lt;EntityIdentifier&gt;ManyField&lt;/EntityIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/ActionInfo&gt;
+  &lt;/Actions&gt;
+&lt;/ActionForm&gt;]]></content>
+</module>
