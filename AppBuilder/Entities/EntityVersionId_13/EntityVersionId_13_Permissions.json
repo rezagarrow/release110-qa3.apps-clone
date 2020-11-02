@@ -1,0 +1,69 @@
+[
+  {
+    "InputType": "Select",
+    "Options": [
+      {
+        "Key": "all",
+        "Value": "All Entries"
+      },
+      {
+        "Key": "own",
+        "Value": "Own Entries"
+      },
+      {
+        "Key": "none",
+        "Value": "None"
+      }
+    ],
+    "DefaultOption": "none",
+    "Id": 1,
+    "Name": "Can View"
+  },
+  {
+    "InputType": "Checkbox",
+    "Options": [],
+    "DefaultOption": "false",
+    "Id": 2,
+    "Name": "Can Add"
+  },
+  {
+    "InputType": "Select",
+    "Options": [
+      {
+        "Key": "all",
+        "Value": "All Entries"
+      },
+      {
+        "Key": "own",
+        "Value": "Own Entries"
+      },
+      {
+        "Key": "none",
+        "Value": "None"
+      }
+    ],
+    "DefaultOption": "none",
+    "Id": 3,
+    "Name": "Can Edit"
+  },
+  {
+    "InputType": "Select",
+    "Options": [
+      {
+        "Key": "all",
+        "Value": "All Entries"
+      },
+      {
+        "Key": "own",
+        "Value": "Own Entries"
+      },
+      {
+        "Key": "none",
+        "Value": "None"
+      }
+    ],
+    "DefaultOption": "none",
+    "Id": 4,
+    "Name": "Can Delete"
+  }
+]
