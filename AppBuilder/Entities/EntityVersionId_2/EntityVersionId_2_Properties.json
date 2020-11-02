@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 4,
+    "EntityVersionId": 2,
+    "Name": "RoleName",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": true,
+    "IsSearchable": true,
+    "IsFilterable": true,
+    "IsSortable": true
+  }
+]
