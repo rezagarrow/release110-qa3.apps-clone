@@ -1,0 +1,12 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 6,
+  "Id": 4,
+  "VersionId": 4,
+  "Name": "Image",
+  "PluralName": "Images",
+  "Icon": "image",
+  "Type": "BuiltIn",
+  "BuiltInType": "Images"
+}
