@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 13,
+  "Id": 8,
+  "VersionId": 8,
+  "Name": "Multiple",
+  "PluralName": "Multiples",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
