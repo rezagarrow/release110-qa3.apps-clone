@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 14,
+  "Id": 9,
+  "VersionId": 9,
+  "Name": "All Field",
+  "PluralName": "All Fields",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
