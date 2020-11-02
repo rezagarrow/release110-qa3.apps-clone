@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "EntityVersionId": 1,
+    "Name": "Username",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": true,
+    "IsSearchable": true,
+    "IsFilterable": true,
+    "IsSortable": true
+  },
+  {
+    "Id": 2,
+    "EntityVersionId": 1,
+    "Name": "DisplayName",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": true,
+    "IsFilterable": true,
+    "IsSortable": true
+  },
+  {
+    "Id": 3,
+    "EntityVersionId": 1,
+    "Name": "Email",
+    "Type": {
+      "Id": "Email",
+      "Name": "Email",
+      "InputType": {
+        "Id": "Email",
+        "Name": "Email",
+        "ValueType": "String",
+        "Length": 320,
+        "Icon": "mail_outline"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": true,
+    "IsFilterable": true,
+    "IsSortable": true
+  }
+]

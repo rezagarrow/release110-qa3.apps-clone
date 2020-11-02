@@ -1,0 +1,12 @@
+{
+  "DisplayInMenu": false,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 1,
+  "Id": 1,
+  "VersionId": 1,
+  "Name": "User",
+  "PluralName": "Users",
+  "Icon": "user",
+  "Type": "BuiltIn",
+  "BuiltInType": "Users"
+}
