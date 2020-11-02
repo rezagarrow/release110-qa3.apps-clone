@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 15,
+    "EntityVersionId": 10,
+    "Name": "Name",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": true,
+    "IsSearchable": true,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 16,
+    "EntityVersionId": 10,
+    "Name": "Dec",
+    "Type": {
+      "Id": "Decimal",
+      "Name": "Number (Decimal)",
+      "InputType": {
+        "Id": "Decimal",
+        "Name": "Number (Decimal)",
+        "ValueType": "Decimal",
+        "Length": 4,
+        "Icon": "looks_one"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 17,
+    "EntityVersionId": 10,
+    "Name": "Int",
+    "Type": {
+      "Id": "Integer",
+      "Name": "Number (Integer)",
+      "InputType": {
+        "Id": "Integer",
+        "Name": "Number (Integer)",
+        "ValueType": "Integer",
+        "Length": 4,
+        "Icon": "looks_one"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 18,
+    "EntityVersionId": 10,
+    "Name": "Money",
+    "Type": {
+      "Id": "Money",
+      "Name": "Money",
+      "InputType": {
+        "Id": "Money",
+        "Name": "Money",
+        "ValueType": "Decimal",
+        "Length": 17,
+        "Icon": "attach_money"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  }
+]
