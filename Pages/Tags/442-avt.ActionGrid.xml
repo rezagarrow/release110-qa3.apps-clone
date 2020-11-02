@@ -1,0 +1,268 @@
+<module type="ActionGrid" version="05.10.04.00">
+    <contentKey />
+    <moduleID>442</moduleID>
+    <alignment />
+    <alltabs>false</alltabs>
+    <border />
+    <cachemethod />
+    <cachetime>0</cachetime>
+    <color />
+    <containersrc />
+    <displayprint>true</displayprint>
+    <displaysyndicate>false</displaysyndicate>
+    <displaytitle>true</displaytitle>
+    <enddate>0001-01-01T00:00:00</enddate>
+    <footer />
+    <header />
+    <iconfile />
+    <inheritviewpermissions>true</inheritviewpermissions>
+    <iswebslice>false</iswebslice>
+    <modulepermissions />
+    <title>Listing</title>
+    <startdate>0001-01-01T00:00:00</startdate>
+    <uniqueId>20aa366a-360a-4d75-8d26-82fbbe200b71</uniqueId>
+    <visibility>Maximized</visibility>
+    <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
+    <webslicettl>0</webslicettl>
+    <cultureCode />
+    <modulesettings />
+    <tabmodulesettings />
+    <definition>Action Grid</definition>
+    <moduledefinition>avt.ActionGrid</moduledefinition>
+    <content type="ActionGrid" version="05.10.04.00"><![CDATA[&lt;ActionGrid&gt;
+  &lt;Settings&gt;
+    &lt;Version&gt;5.10.0&lt;/Version&gt;
+    &lt;Build&gt;5.10.4&lt;/Build&gt;
+    &lt;CurrentContext&gt;ExportImport&lt;/CurrentContext&gt;
+    &lt;ModuleId&gt;442&lt;/ModuleId&gt;
+    &lt;DataSource&gt;{&quot;DefinitionId&quot;:&quot;PlantAnApp.EntityDatasource.0.Tag&quot;,&quot;Parameters&quot;:{},&quot;Fields&quot;:[{&quot;Title&quot;:&quot;Name&quot;,&quot;Name&quot;:&quot;Name&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:false,&quot;CanBeFilterable&quot;:false,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;CreatedBy&quot;,&quot;Name&quot;:&quot;CreatedBy&quot;,&quot;TypeStr&quot;:&quot;System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:false,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;CreatedDate&quot;,&quot;Name&quot;:&quot;CreatedDate&quot;,&quot;TypeStr&quot;:&quot;System.Nullable`1[[System.DateTimeOffset, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:false,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:false,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;LastModifiedBy&quot;,&quot;Name&quot;:&quot;LastModifiedBy&quot;,&quot;TypeStr&quot;:&quot;System.Nullable`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:false,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;LastModifiedDate&quot;,&quot;Name&quot;:&quot;LastModifiedDate&quot;,&quot;TypeStr&quot;:&quot;System.Nullable`1[[System.DateTimeOffset, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:false,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:false,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:true,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;CreatedByUsername&quot;,&quot;Name&quot;:&quot;CreatedByUsername&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;CreatedByDisplayName&quot;,&quot;Name&quot;:&quot;CreatedByDisplayName&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;CreatedByEmail&quot;,&quot;Name&quot;:&quot;CreatedByEmail&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;LastModifiedByUsername&quot;,&quot;Name&quot;:&quot;LastModifiedByUsername&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;LastModifiedByDisplayName&quot;,&quot;Name&quot;:&quot;LastModifiedByDisplayName&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;LastModifiedByEmail&quot;,&quot;Name&quot;:&quot;LastModifiedByEmail&quot;,&quot;TypeStr&quot;:&quot;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:true,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:&quot;&quot;},{&quot;Title&quot;:&quot;Id&quot;,&quot;Name&quot;:&quot;Id&quot;,&quot;TypeStr&quot;:&quot;System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;CanBeSearchable&quot;:true,&quot;CanBeSortable&quot;:true,&quot;CanBeFilterable&quot;:false,&quot;SupportsUpdate&quot;:false,&quot;IsNullable&quot;:false,&quot;DefaultValue&quot;:0}]}&lt;/DataSource&gt;
+    &lt;NoDataMessage&gt;No Data&lt;/NoDataMessage&gt;
+    &lt;AditionalHtmlHeader /&gt;
+    &lt;OnInitJs /&gt;
+    &lt;OnRefreshJs /&gt;
+    &lt;EnableEmbed&gt;False&lt;/EnableEmbed&gt;
+    &lt;ShowCondition /&gt;
+    &lt;SearchPlaceholder /&gt;
+    &lt;SearchDelayTime&gt;300&lt;/SearchDelayTime&gt;
+    &lt;TableHeight /&gt;
+    &lt;PagerStyle&gt;TouchFriendly&lt;/PagerStyle&gt;
+    &lt;PageSizes&gt;[12,24,48]&lt;/PageSizes&gt;
+    &lt;DefaultPageSize&gt;12&lt;/DefaultPageSize&gt;
+    &lt;IsDebug&gt;False&lt;/IsDebug&gt;
+    &lt;SearchEnabled&gt;True&lt;/SearchEnabled&gt;
+    &lt;HideEmptyGrid&gt;False&lt;/HideEmptyGrid&gt;
+    &lt;LoadOnSearch&gt;False&lt;/LoadOnSearch&gt;
+    &lt;HideTableHead&gt;False&lt;/HideTableHead&gt;
+    &lt;EnableStickyHead&gt;False&lt;/EnableStickyHead&gt;
+    &lt;ItemButtonPosition&gt;Right&lt;/ItemButtonPosition&gt;
+    &lt;ItemButtonPositionInColumn&gt;Right&lt;/ItemButtonPositionInColumn&gt;
+    &lt;ItemButtonGroupingOptions&gt;HorizontalAlign&lt;/ItemButtonGroupingOptions&gt;
+    &lt;FiltersEnabled&gt;True&lt;/FiltersEnabled&gt;
+    &lt;ShowFilters&gt;False&lt;/ShowFilters&gt;
+    &lt;SyncUrl&gt;True&lt;/SyncUrl&gt;
+    &lt;IncludeBootstrapJS&gt;True&lt;/IncludeBootstrapJS&gt;
+    &lt;IncludeBootstrapCSS&gt;True&lt;/IncludeBootstrapCSS&gt;
+    &lt;IncludeFontAwesome&gt;True&lt;/IncludeFontAwesome&gt;
+    &lt;AngularnoConflict&gt;True&lt;/AngularnoConflict&gt;
+    &lt;SelectAllPosition&gt;None&lt;/SelectAllPosition&gt;
+    &lt;LoadingStyle&gt;Results&lt;/LoadingStyle&gt;
+    &lt;SearchPosition&gt;expandabletop&lt;/SearchPosition&gt;
+    &lt;RootCSSClasses /&gt;
+    &lt;ModalRefresh&gt;False&lt;/ModalRefresh&gt;
+    &lt;ShowLoading&gt;True&lt;/ShowLoading&gt;
+    &lt;TabsProLoading&gt;False&lt;/TabsProLoading&gt;
+    &lt;EnableGridSelect&gt;True&lt;/EnableGridSelect&gt;
+    &lt;DataSourceAutoRefreshInterval&gt;1&lt;/DataSourceAutoRefreshInterval&gt;
+    &lt;DataSourceRefreshType&gt;manual&lt;/DataSourceRefreshType&gt;
+    &lt;DateFormat&gt;m/d/yy&lt;/DateFormat&gt;
+    &lt;BaseId&gt;dnn442&lt;/BaseId&gt;
+    &lt;ItemButtonGroups&gt;[]&lt;/ItemButtonGroups&gt;
+    &lt;GridButtonGroups&gt;[]&lt;/GridButtonGroups&gt;
+    &lt;ItemButtons&gt;[{&quot;initialPrimaryKeyValues&quot;:{},&quot;ItemActions&quot;:[{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Edit.OpenForm&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;OpenAFPopup&quot;,&quot;OrderIndex&quot;:0,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:443,&quot;Parameters&quot;:{}},&quot;ReinitForm&quot;:true,&quot;Params&quot;:[{&quot;name&quot;:&quot;TagId&quot;,&quot;value&quot;:&quot;[Id]&quot;}]},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;ItemAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false}],&quot;Url&quot;:&quot;&amp;amp;buttonName=Edit&quot;,&quot;ModuleId&quot;:442,&quot;AutoName&quot;:false,&quot;Name&quot;:&quot;Edit&quot;,&quot;Title&quot;:&quot;&quot;,&quot;Help&quot;:&quot;Edit&quot;,&quot;ShowCondition&quot;:&quot;([HasRole:5] || [HasRole:6] || [HasRole:7])&quot;,&quot;IsEnabled&quot;:false,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Edit&quot;},&quot;Type&quot;:&quot;ItemButton&quot;,&quot;OrderIndex&quot;:0,&quot;CssClass&quot;:&quot;default&quot;,&quot;CustomCssClass&quot;:null,&quot;IconClass&quot;:&quot;glyphicon-pencil&quot;,&quot;FaIconClass&quot;:null,&quot;PermissionAllUsers&quot;:false,&quot;Permissions&quot;:[5,6,7],&quot;AskForConfirmation&quot;:false,&quot;ConfirmationMessage&quot;:null,&quot;ConfirmationOk&quot;:null,&quot;ConfirmationCancel&quot;:null,&quot;JsCode&quot;:null,&quot;IsClientButton&quot;:false,&quot;ButtonGroupId&quot;:null,&quot;ButtonGroupName&quot;:null,&quot;Id&quot;:0,&quot;EnableCondition&quot;:null,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false,&quot;PermissionsExportJson&quot;:&quot;[\&quot;Admins\&quot;,\&quot;Citizen Developers\&quot;,\&quot;Managers\&quot;]&quot;},{&quot;initialPrimaryKeyValues&quot;:{},&quot;ItemActions&quot;:[{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Delete.DeleteEntity&quot;,&quot;EntityIdentifier&quot;:&quot;Tag&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;PlantAnApp.DeleteEntity.0.Tag&quot;,&quot;OrderIndex&quot;:0,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{&quot;RecordId&quot;:&quot;[Id]&quot;},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;ItemAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Delete.RefreshDatasource&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;DataSource.Refresh&quot;,&quot;OrderIndex&quot;:1,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;ItemAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false}],&quot;Url&quot;:&quot;&amp;amp;buttonName=Delete&quot;,&quot;ModuleId&quot;:442,&quot;AutoName&quot;:false,&quot;Name&quot;:&quot;Delete&quot;,&quot;Title&quot;:&quot;&quot;,&quot;Help&quot;:&quot;Delete&quot;,&quot;ShowCondition&quot;:&quot;([HasRole:5] || [HasRole:6] || [HasRole:7])&quot;,&quot;IsEnabled&quot;:false,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Delete&quot;},&quot;Type&quot;:&quot;ItemButton&quot;,&quot;OrderIndex&quot;:1,&quot;CssClass&quot;:&quot;danger&quot;,&quot;CustomCssClass&quot;:null,&quot;IconClass&quot;:&quot;glyphicon-trash&quot;,&quot;FaIconClass&quot;:null,&quot;PermissionAllUsers&quot;:false,&quot;Permissions&quot;:[5,6,7],&quot;AskForConfirmation&quot;:true,&quot;ConfirmationMessage&quot;:&quot;Delete this Tag?&quot;,&quot;ConfirmationOk&quot;:&quot;Yes&quot;,&quot;ConfirmationCancel&quot;:&quot;No&quot;,&quot;JsCode&quot;:null,&quot;IsClientButton&quot;:false,&quot;ButtonGroupId&quot;:null,&quot;ButtonGroupName&quot;:null,&quot;Id&quot;:0,&quot;EnableCondition&quot;:null,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false,&quot;PermissionsExportJson&quot;:&quot;[\&quot;Admins\&quot;,\&quot;Citizen Developers\&quot;,\&quot;Managers\&quot;]&quot;}]&lt;/ItemButtons&gt;
+    &lt;GridButtons&gt;[{&quot;initialPrimaryKeyValues&quot;:{},&quot;RequiresSelection&quot;:false,&quot;RequiresData&quot;:false,&quot;ShowCount&quot;:false,&quot;SumColumn&quot;:null,&quot;SumMode&quot;:&quot;Default&quot;,&quot;SumCoefficient&quot;:null,&quot;TextBeforeSum&quot;:null,&quot;TextAfterSum&quot;:null,&quot;ConfirmationPosition&quot;:&quot;centered&quot;,&quot;VerticalPosition&quot;:&quot;Top&quot;,&quot;HorizontalPosition&quot;:&quot;Left&quot;,&quot;BulkActions&quot;:[{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add.OpenForm&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;OpenAFPopup&quot;,&quot;OrderIndex&quot;:0,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{&quot;ModuleId&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:443,&quot;Parameters&quot;:{}},&quot;ReinitForm&quot;:true,&quot;Params&quot;:[]},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;BulkAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false}],&quot;BulkActionsAfter&quot;:[],&quot;ItemActions&quot;:[],&quot;Url&quot;:&quot;&amp;amp;buttonName=Add&quot;,&quot;ModuleId&quot;:442,&quot;AutoName&quot;:false,&quot;Name&quot;:&quot;Add&quot;,&quot;Title&quot;:&quot;New&quot;,&quot;Help&quot;:&quot;Add&quot;,&quot;ShowCondition&quot;:null,&quot;IsEnabled&quot;:false,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Add&quot;},&quot;Type&quot;:&quot;GridButton&quot;,&quot;OrderIndex&quot;:0,&quot;CssClass&quot;:&quot;primary&quot;,&quot;CustomCssClass&quot;:null,&quot;IconClass&quot;:null,&quot;FaIconClass&quot;:null,&quot;PermissionAllUsers&quot;:false,&quot;Permissions&quot;:[5,6,7],&quot;AskForConfirmation&quot;:false,&quot;ConfirmationMessage&quot;:null,&quot;ConfirmationOk&quot;:null,&quot;ConfirmationCancel&quot;:null,&quot;JsCode&quot;:null,&quot;IsClientButton&quot;:false,&quot;ButtonGroupId&quot;:null,&quot;ButtonGroupName&quot;:null,&quot;Id&quot;:0,&quot;EnableCondition&quot;:null,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false,&quot;PermissionsExportJson&quot;:&quot;[\&quot;Admins\&quot;,\&quot;Citizen Developers\&quot;,\&quot;Managers\&quot;]&quot;},{&quot;initialPrimaryKeyValues&quot;:{},&quot;RequiresSelection&quot;:false,&quot;RequiresData&quot;:false,&quot;ShowCount&quot;:false,&quot;SumColumn&quot;:null,&quot;SumMode&quot;:&quot;Default&quot;,&quot;SumCoefficient&quot;:null,&quot;TextBeforeSum&quot;:null,&quot;TextAfterSum&quot;:null,&quot;ConfirmationPosition&quot;:&quot;centered&quot;,&quot;VerticalPosition&quot;:&quot;Bottom&quot;,&quot;HorizontalPosition&quot;:&quot;Right&quot;,&quot;BulkActions&quot;:[{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Export.ExportXlsx&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;ExcelFromEntityList&quot;,&quot;OrderIndex&quot;:0,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{&quot;Duplicates&quot;:{&quot;IsExpression&quot;:false,&quot;Expression&quot;:&quot;&quot;,&quot;Value&quot;:&quot;Rename&quot;,&quot;Parameters&quot;:{}},&quot;IncludeAllFields&quot;:true,&quot;StoreAbsoluteURL&quot;:&quot;[ExcelUrl]&quot;},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;BulkAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},{&quot;initialPrimaryKeyValues&quot;:{},&quot;Id&quot;:0,&quot;ButtonId&quot;:0,&quot;ActionInfo&quot;:{&quot;initialPrimaryKeyValues&quot;:{},&quot;ActionErrorMessage&quot;:null,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Export.RedirectUrl&quot;},&quot;Id&quot;:0,&quot;Description&quot;:null,&quot;ActionType&quot;:&quot;RedirectToUrl&quot;,&quot;OrderIndex&quot;:1,&quot;Condition&quot;:null,&quot;LastModified&quot;:&quot;2020-10-29T14:04:50+00:00&quot;,&quot;LastModifiedBy&quot;:2,&quot;Parameters&quot;:{&quot;Url&quot;:&quot;[ExcelUrl]&quot;,&quot;ForceDownload&quot;:true},&quot;CreateActionEvent&quot;:{&quot;Delegate&quot;:{&quot;type&quot;:&quot;System.Func`4[[DnnSharp.Common.Actions.ActionContext, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[DnnSharp.Common.SettingsDictionary, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null],[System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089],[DnnSharp.Common.Actions.ActionEvent, DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;assembly&quot;:&quot;mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&quot;,&quot;target&quot;:&quot;target0&quot;,&quot;targetTypeAssembly&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;targetTypeName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;methodName&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;delegateEntry&quot;:null},&quot;target0&quot;:{},&quot;method0&quot;:{&quot;Name&quot;:&quot;&amp;lt;get_CreateActionEvent&amp;gt;b__49_0&quot;,&quot;AssemblyName&quot;:&quot;DnnSharp.Common, Version=5.10.5.0, Culture=neutral, PublicKeyToken=null&quot;,&quot;ClassName&quot;:&quot;DnnSharp.Common.Actions.ActionInfoBase`1+&amp;lt;&amp;gt;c[[DnnSharp.ActionGrid.Core.Actions.CommonActionInfo, DnnSharp.ActionGrid.Core, Version=5.10.4.0, Culture=neutral, PublicKeyToken=null]]&quot;,&quot;Signature&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;Signature2&quot;:&quot;DnnSharp.Common.Actions.ActionEvent &amp;lt;get_CreateActionEvent&amp;gt;b__49_0(DnnSharp.Common.Actions.ActionContext, DnnSharp.Common.SettingsDictionary, System.String)&quot;,&quot;MemberType&quot;:8,&quot;GenericArguments&quot;:null}},&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false},&quot;EventName&quot;:&quot;BulkAction&quot;,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false}],&quot;BulkActionsAfter&quot;:[],&quot;ItemActions&quot;:[],&quot;Url&quot;:&quot;&amp;amp;buttonName=Export&quot;,&quot;ModuleId&quot;:442,&quot;AutoName&quot;:true,&quot;Name&quot;:&quot;Export&quot;,&quot;Title&quot;:&quot;Export&quot;,&quot;Help&quot;:&quot;Export&quot;,&quot;ShowCondition&quot;:null,&quot;IsEnabled&quot;:false,&quot;Metadata&quot;:{&quot;PAP_InternalIdentifier&quot;:&quot;Button.Export&quot;},&quot;Type&quot;:&quot;GridButton&quot;,&quot;OrderIndex&quot;:1,&quot;CssClass&quot;:&quot;link&quot;,&quot;CustomCssClass&quot;:null,&quot;IconClass&quot;:null,&quot;FaIconClass&quot;:null,&quot;PermissionAllUsers&quot;:false,&quot;Permissions&quot;:[5,6,7],&quot;AskForConfirmation&quot;:false,&quot;ConfirmationMessage&quot;:null,&quot;ConfirmationOk&quot;:null,&quot;ConfirmationCancel&quot;:null,&quot;JsCode&quot;:null,&quot;IsClientButton&quot;:false,&quot;ButtonGroupId&quot;:null,&quot;ButtonGroupName&quot;:null,&quot;Id&quot;:0,&quot;EnableCondition&quot;:null,&quot;EntityLoaded&quot;:false,&quot;IsDeleted&quot;:false,&quot;PermissionsExportJson&quot;:&quot;[\&quot;Admins\&quot;,\&quot;Citizen Developers\&quot;,\&quot;Managers\&quot;]&quot;}]&lt;/GridButtons&gt;
+    &lt;PortalHomeUrl&gt;/Portals/0/&lt;/PortalHomeUrl&gt;
+    &lt;TooltipContent /&gt;
+    &lt;TooltipDataTrigger /&gt;
+    &lt;TooltipIcon&gt;glyphicon-info-sign&lt;/TooltipIcon&gt;
+    &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+    &lt;TooltipInEdit&gt;right&lt;/TooltipInEdit&gt;
+    &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+    &lt;TooltipOrientation /&gt;
+    &lt;TooltipTitle /&gt;
+    &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+    &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+    &lt;RefreshOnTabChange&gt;False&lt;/RefreshOnTabChange&gt;
+    &lt;UseDragAndDropActions&gt;False&lt;/UseDragAndDropActions&gt;
+    &lt;DragAndDropActions&gt;[]&lt;/DragAndDropActions&gt;
+    &lt;InitLoadFromTabsPro&gt;False&lt;/InitLoadFromTabsPro&gt;
+    &lt;LockIntoEditMode&gt;False&lt;/LockIntoEditMode&gt;
+    &lt;LockInEditForEachRowActions&gt;[]&lt;/LockInEditForEachRowActions&gt;
+    &lt;LockInEditFinalActions&gt;[]&lt;/LockInEditFinalActions&gt;
+    &lt;Template&gt;grid&lt;/Template&gt;
+    &lt;MobileTemplate&gt;listing&lt;/MobileTemplate&gt;
+    &lt;SwitchingTemplates&gt;False&lt;/SwitchingTemplates&gt;
+    &lt;TemplateConfig&gt;{}&lt;/TemplateConfig&gt;
+  &lt;/Settings&gt;
+  &lt;Fields&gt;
+    &lt;FieldInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;Title&gt;Id&lt;/Title&gt;
+      &lt;RefName&gt;Id&lt;/RefName&gt;
+      &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+      &lt;IsInitiallyVisible&gt;true&lt;/IsInitiallyVisible&gt;
+      &lt;IsSortable&gt;true&lt;/IsSortable&gt;
+      &lt;CanBeSortable&gt;true&lt;/CanBeSortable&gt;
+      &lt;IsSearchable&gt;true&lt;/IsSearchable&gt;
+      &lt;AllowHtml&gt;false&lt;/AllowHtml&gt;
+      &lt;CanBeSearchable&gt;true&lt;/CanBeSearchable&gt;
+      &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
+      &lt;CanBeFilterable&gt;true&lt;/CanBeFilterable&gt;
+      &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
+      &lt;OrderIndex&gt;0&lt;/OrderIndex&gt;
+      &lt;Template /&gt;
+      &lt;FormatterParameters /&gt;
+      &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+      &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
+      &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+      &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+      &lt;ColumnTextAlignment&gt;left&lt;/ColumnTextAlignment&gt;
+      &lt;HeaderTextAlignment&gt;false&lt;/HeaderTextAlignment&gt;
+      &lt;ShowInFooter&gt;no&lt;/ShowInFooter&gt;
+      &lt;ShowInFooterSumDecimals&gt;2&lt;/ShowInFooterSumDecimals&gt;
+      &lt;Format /&gt;
+      &lt;EditFieldType&gt;none&lt;/EditFieldType&gt;
+      &lt;EditFieldTypeParameters /&gt;
+      &lt;Validation /&gt;
+      &lt;FieldType&gt;Field&lt;/FieldType&gt;
+      &lt;FieldTypeStr&gt;Field&lt;/FieldTypeStr&gt;
+      &lt;FormFields /&gt;
+      &lt;FormSettings&gt;
+        &lt;LabelAlign&gt;
+          &lt;Value&gt;Inside&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelAlign&gt;
+        &lt;LabelWidth&gt;
+          &lt;Value&gt;3&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelWidth&gt;
+        &lt;FieldSpacing&gt;
+          &lt;Value&gt;Normal&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/FieldSpacing&gt;
+        &lt;FormId&gt;0&lt;/FormId&gt;
+        &lt;Cache&gt;false&lt;/Cache&gt;
+        &lt;MasterCacheKey /&gt;
+      &lt;/FormSettings&gt;
+      &lt;ShowOnMobile&gt;true&lt;/ShowOnMobile&gt;
+      &lt;ShowOnTablet&gt;true&lt;/ShowOnTablet&gt;
+      &lt;ShowOnDesktop&gt;true&lt;/ShowOnDesktop&gt;
+      &lt;ShowOnLargeScreens&gt;true&lt;/ShowOnLargeScreens&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Field.Id&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Field.Id&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/FieldInfo&gt;
+    &lt;FieldInfo&gt;
+      &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+      &lt;Title&gt;Name&lt;/Title&gt;
+      &lt;RefName&gt;Name&lt;/RefName&gt;
+      &lt;IsEnabled&gt;true&lt;/IsEnabled&gt;
+      &lt;IsInitiallyVisible&gt;true&lt;/IsInitiallyVisible&gt;
+      &lt;IsSortable&gt;false&lt;/IsSortable&gt;
+      &lt;CanBeSortable&gt;true&lt;/CanBeSortable&gt;
+      &lt;IsSearchable&gt;true&lt;/IsSearchable&gt;
+      &lt;AllowHtml&gt;true&lt;/AllowHtml&gt;
+      &lt;CanBeSearchable&gt;true&lt;/CanBeSearchable&gt;
+      &lt;IsFilterable&gt;false&lt;/IsFilterable&gt;
+      &lt;CanBeFilterable&gt;true&lt;/CanBeFilterable&gt;
+      &lt;FormatFilters&gt;false&lt;/FormatFilters&gt;
+      &lt;OrderIndex&gt;1&lt;/OrderIndex&gt;
+      &lt;Template /&gt;
+      &lt;FormatterParameters&gt;
+        &lt;item&gt;
+          &lt;key&gt;
+            &lt;string&gt;Target&lt;/string&gt;
+          &lt;/key&gt;
+          &lt;value&gt;
+            &lt;FormatterParameterInfo xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+              &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+              &lt;DefinitionId&gt;Link&lt;/DefinitionId&gt;
+              &lt;TypeStr&gt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/TypeStr&gt;
+              &lt;Name&gt;Target&lt;/Name&gt;
+              &lt;IsExpression&gt;false&lt;/IsExpression&gt;
+              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;_self&lt;/Value&gt;
+            &lt;/FormatterParameterInfo&gt;
+          &lt;/value&gt;
+        &lt;/item&gt;
+        &lt;item&gt;
+          &lt;key&gt;
+            &lt;string&gt;Link&lt;/string&gt;
+          &lt;/key&gt;
+          &lt;value&gt;
+            &lt;FormatterParameterInfo xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;&gt;
+              &lt;IsDeleted&gt;false&lt;/IsDeleted&gt;
+              &lt;DefinitionId&gt;Link&lt;/DefinitionId&gt;
+              &lt;TypeStr&gt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089&lt;/TypeStr&gt;
+              &lt;Name&gt;Link&lt;/Name&gt;
+              &lt;IsExpression&gt;false&lt;/IsExpression&gt;
+              &lt;Value xsi:type=&quot;xsd:string&quot;&gt;//[Portal:url]/Tags/Detail?TagId=[Id]&lt;/Value&gt;
+            &lt;/FormatterParameterInfo&gt;
+          &lt;/value&gt;
+        &lt;/item&gt;
+      &lt;/FormatterParameters&gt;
+      &lt;TooltipEnabled&gt;false&lt;/TooltipEnabled&gt;
+      &lt;TooltipOrientation&gt;top&lt;/TooltipOrientation&gt;
+      &lt;TooltipDataTrigger&gt;click&lt;/TooltipDataTrigger&gt;
+      &lt;TooltipIconPosition&gt;right&lt;/TooltipIconPosition&gt;
+      &lt;TooltipInEdit&gt;false&lt;/TooltipInEdit&gt;
+      &lt;TooltipHeight&gt;0&lt;/TooltipHeight&gt;
+      &lt;TooltipWidth&gt;0&lt;/TooltipWidth&gt;
+      &lt;ColumnTextAlignment&gt;left&lt;/ColumnTextAlignment&gt;
+      &lt;HeaderTextAlignment&gt;false&lt;/HeaderTextAlignment&gt;
+      &lt;ShowInFooter&gt;no&lt;/ShowInFooter&gt;
+      &lt;ShowInFooterSumDecimals&gt;2&lt;/ShowInFooterSumDecimals&gt;
+      &lt;Format&gt;Link&lt;/Format&gt;
+      &lt;EditFieldType&gt;none&lt;/EditFieldType&gt;
+      &lt;EditFieldTypeParameters /&gt;
+      &lt;Validation /&gt;
+      &lt;FieldType&gt;Field&lt;/FieldType&gt;
+      &lt;FieldTypeStr&gt;Field&lt;/FieldTypeStr&gt;
+      &lt;FormFields /&gt;
+      &lt;FormSettings&gt;
+        &lt;LabelAlign&gt;
+          &lt;Value&gt;Inside&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelAlign&gt;
+        &lt;LabelWidth&gt;
+          &lt;Value&gt;3&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/LabelWidth&gt;
+        &lt;FieldSpacing&gt;
+          &lt;Value&gt;Normal&lt;/Value&gt;
+          &lt;CanOverride&gt;true&lt;/CanOverride&gt;
+          &lt;Inherit&gt;true&lt;/Inherit&gt;
+        &lt;/FieldSpacing&gt;
+        &lt;FormId&gt;0&lt;/FormId&gt;
+        &lt;Cache&gt;false&lt;/Cache&gt;
+        &lt;MasterCacheKey /&gt;
+      &lt;/FormSettings&gt;
+      &lt;ShowOnMobile&gt;true&lt;/ShowOnMobile&gt;
+      &lt;ShowOnTablet&gt;true&lt;/ShowOnTablet&gt;
+      &lt;ShowOnDesktop&gt;true&lt;/ShowOnDesktop&gt;
+      &lt;ShowOnLargeScreens&gt;true&lt;/ShowOnLargeScreens&gt;
+      &lt;MetadataJson&gt;{&quot;PAP_InternalIdentifier&quot;:&quot;Field.21&quot;}&lt;/MetadataJson&gt;
+      &lt;Metadata&gt;
+        &lt;PAP_InternalIdentifier&gt;Field.21&lt;/PAP_InternalIdentifier&gt;
+      &lt;/Metadata&gt;
+    &lt;/FieldInfo&gt;
+  &lt;/Fields&gt;
+&lt;/ActionGrid&gt;]]></content>
+</module>
