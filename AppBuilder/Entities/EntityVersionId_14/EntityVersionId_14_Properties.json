@@ -1,0 +1,86 @@
+[
+  {
+    "Id": 34,
+    "EntityVersionId": 14,
+    "Name": "Name",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": true,
+    "IsSearchable": true,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 35,
+    "EntityVersionId": 14,
+    "Name": "Date",
+    "Type": {
+      "Id": "Text",
+      "Name": "Text",
+      "InputType": {
+        "Id": "Text",
+        "Name": "Text",
+        "ValueType": "String",
+        "Length": 450,
+        "Icon": "short_text"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 36,
+    "EntityVersionId": 14,
+    "Name": "DateTime",
+    "Type": {
+      "Id": "DateTime",
+      "Name": "Date and Time",
+      "InputType": {
+        "Id": "DateTime",
+        "Name": "Date and Time",
+        "ValueType": "DateTime",
+        "Length": 8,
+        "Icon": "today"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  },
+  {
+    "Id": 37,
+    "EntityVersionId": 14,
+    "Name": "DateTimeLocal",
+    "Type": {
+      "Id": "DateTimeOffset",
+      "Name": "Local Date and Time",
+      "InputType": {
+        "Id": "DateTimeOffset",
+        "Name": "Local Date and Time",
+        "ValueType": "DateTimeOffset",
+        "Length": 10,
+        "Icon": "calendar_today"
+      }
+    },
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false
+  }
+]

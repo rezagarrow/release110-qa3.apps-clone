@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 34,
+  "Id": 14,
+  "VersionId": 14,
+  "Name": "DateTime",
+  "PluralName": "DateTimes",
+  "Icon": "calendar-alt",
+  "Type": "UserCreated"
+}
