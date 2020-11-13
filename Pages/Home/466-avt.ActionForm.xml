@@ -479,7 +479,7 @@
     &lt;OpenFormMode&gt;Manual&lt;/OpenFormMode&gt;
     &lt;ModuleId&gt;466&lt;/ModuleId&gt;
     &lt;ModuleVersion&gt;5.10.10&lt;/ModuleVersion&gt;
-    &lt;TabId&gt;21&lt;/TabId&gt;
+    &lt;TabId&gt;62&lt;/TabId&gt;
     &lt;ModuleBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm&lt;/ModuleBaseUrl&gt;
     &lt;ResourceBaseUrl&gt;/DesktopModules/DnnSharp/ActionForm/static&lt;/ResourceBaseUrl&gt;
     &lt;FormTemplate&gt;Material&lt;/FormTemplate&gt;
