@@ -25,7 +25,7 @@
             <rolename>Administrators</rolename>
         </permission>
     </modulepermissions>
-    <title>Content1</title>
+    <title>Content2</title>
     <startdate>0001-01-01T00:00:00</startdate>
     <uniqueId>fdf6a43f-c2e8-4f2e-aff8-56d2154557af</uniqueId>
     <visibility>Maximized</visibility>
@@ -35,16 +35,16 @@
     <cultureCode />
     <modulesettings>
         <modulesetting>
+            <settingname>HtmlText_ReplaceTokens</settingname>
+            <settingvalue>False</settingvalue>
+        </modulesetting>
+        <modulesetting>
             <settingname>HtmlText_UseDecorate</settingname>
             <settingvalue>True</settingvalue>
         </modulesetting>
         <modulesetting>
             <settingname>WorkFlowID</settingname>
             <settingvalue>-1</settingvalue>
-        </modulesetting>
-        <modulesetting>
-            <settingname>HtmlText_ReplaceTokens</settingname>
-            <settingvalue>False</settingvalue>
         </modulesetting>
         <modulesetting>
             <settingname>HtmlText_SearchDescLength</settingname>
