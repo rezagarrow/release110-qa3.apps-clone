@@ -39,6 +39,15 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "singleimg",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 2,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -47,7 +56,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "name": "[name]"
+        "name": "[name]",
+        "singleimg": "[singleimg]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
