@@ -20,5 +20,27 @@
     "IsFilterable": false,
     "IsSortable": false,
     "OrderIndex": 1
+  },
+  {
+    "Id": 40,
+    "EntityVersionId": 15,
+    "Name": "single img",
+    "Type": {
+      "Id": "EntityRef",
+      "Name": "Entity Reference",
+      "InputType": {
+        "Id": "EntityRef",
+        "Name": "Entity Reference",
+        "ValueType": "EntityRef",
+        "Length": 4
+      }
+    },
+    "EntityVersionRefId": 3,
+    "IsDeleted": false,
+    "IsRequired": false,
+    "IsSearchable": false,
+    "IsFilterable": false,
+    "IsSortable": false,
+    "OrderIndex": 4
   }
 ]
