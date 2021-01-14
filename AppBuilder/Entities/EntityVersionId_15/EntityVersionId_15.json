@@ -1,0 +1,11 @@
+{
+  "DisplayInMenu": true,
+  "ParentPageId": -1,
+  "RecordNamePropertyId": 39,
+  "Id": 15,
+  "VersionId": 15,
+  "Name": "ladash",
+  "PluralName": "ladashs",
+  "Icon": "table",
+  "Type": "UserCreated"
+}
