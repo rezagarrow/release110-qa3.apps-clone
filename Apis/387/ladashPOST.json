@@ -22,6 +22,15 @@
           "OrderIndex": 0
         }
       ]
+    },
+    {
+      "Name": "singleimg",
+      "IsDeleted": false,
+      "IsEnabled": true,
+      "OrderIndex": 1,
+      "Parameters": {},
+      "InputTypeStr": "text",
+      "Validations": []
     }
   ],
   "Actions": [
@@ -30,7 +39,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "OutputToken": "CreatedRecordId",
-        "name": "[name]"
+        "name": "[name]",
+        "singleimg": "[singleimg]"
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -66,6 +76,10 @@
           {
             "name": "name",
             "value": "[CreatedRecord:name]"
+          },
+          {
+            "name": "singleimg",
+            "value": "[CreatedRecord:singleimg]"
           }
         ],
         "Headers": [
