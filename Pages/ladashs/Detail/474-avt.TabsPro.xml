@@ -7,7 +7,6 @@
     <cachemethod />
     <cachetime>0</cachetime>
     <color />
-    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -74,7 +73,7 @@
       &lt;IconUrl /&gt;
       &lt;IconClass /&gt;
       &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
-      &lt;ViewOrder&gt;0&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;3&lt;/ViewOrder&gt;
       &lt;TabUrl /&gt;
       &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
       &lt;DefaultTab&gt;True&lt;/DefaultTab&gt;
@@ -84,6 +83,12 @@
         &lt;en-US&gt;Details&lt;/en-US&gt;
       &lt;/Localization&gt;
       &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;473&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;View Form&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;1&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
         &lt;Module&gt;
           &lt;ModuleId&gt;473&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;View Form&lt;/ModuleTitle&gt;
@@ -101,7 +106,7 @@
       &lt;IconUrl /&gt;
       &lt;IconClass /&gt;
       &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
-      &lt;ViewOrder&gt;1&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;4&lt;/ViewOrder&gt;
       &lt;TabUrl /&gt;
       &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
       &lt;DefaultTab&gt;False&lt;/DefaultTab&gt;
@@ -111,6 +116,12 @@
         &lt;en-US&gt;docs&lt;/en-US&gt;
       &lt;/Localization&gt;
       &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;475&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;docs Listing&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;6&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
         &lt;Module&gt;
           &lt;ModuleId&gt;475&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;docs Listing&lt;/ModuleTitle&gt;
@@ -128,7 +139,7 @@
       &lt;IconUrl /&gt;
       &lt;IconClass /&gt;
       &lt;DisplayAccordion&gt;False&lt;/DisplayAccordion&gt;
-      &lt;ViewOrder&gt;2&lt;/ViewOrder&gt;
+      &lt;ViewOrder&gt;5&lt;/ViewOrder&gt;
       &lt;TabUrl /&gt;
       &lt;StackDirection&gt;Vertical&lt;/StackDirection&gt;
       &lt;DefaultTab&gt;False&lt;/DefaultTab&gt;
@@ -138,6 +149,12 @@
         &lt;en-US&gt;imgs&lt;/en-US&gt;
       &lt;/Localization&gt;
       &lt;Modules&gt;
+        &lt;Module&gt;
+          &lt;ModuleId&gt;477&lt;/ModuleId&gt;
+          &lt;ModuleTitle&gt;imgs Listing&lt;/ModuleTitle&gt;
+          &lt;ModuleOrder&gt;5&lt;/ModuleOrder&gt;
+          &lt;DisplayTitle&gt;False&lt;/DisplayTitle&gt;
+        &lt;/Module&gt;
         &lt;Module&gt;
           &lt;ModuleId&gt;477&lt;/ModuleId&gt;
           &lt;ModuleTitle&gt;imgs Listing&lt;/ModuleTitle&gt;
