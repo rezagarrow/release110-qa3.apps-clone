@@ -52,6 +52,10 @@
           {
             "name": "name",
             "value": "[Record:name]"
+          },
+          {
+            "name": "singleimg",
+            "value": "[Record:singleimg]"
           }
         ],
         "Headers": []
