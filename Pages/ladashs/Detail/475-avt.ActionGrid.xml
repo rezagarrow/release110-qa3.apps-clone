@@ -1,10 +1,13 @@
 <module type="ActionGrid" version="05.10.04.00">
+    <contentKey />
     <moduleID>475</moduleID>
     <alignment />
     <alltabs>false</alltabs>
     <border />
+    <cachemethod />
     <cachetime>0</cachetime>
     <color />
+    <containersrc />
     <displayprint>true</displayprint>
     <displaysyndicate>false</displaysyndicate>
     <displaytitle>true</displaytitle>
@@ -17,10 +20,11 @@
     <modulepermissions />
     <title>docs Listing</title>
     <startdate>0001-01-01T00:00:00</startdate>
-    <uniqueId>9da18ba5-3fd0-452f-abed-f75a32da4a08</uniqueId>
+    <uniqueId>c80148ee-c616-4447-b8e2-f00c50226894</uniqueId>
     <visibility>Maximized</visibility>
     <websliceexpirydate>0001-01-01T00:00:00</websliceexpirydate>
     <webslicettl>0</webslicettl>
+    <cultureCode />
     <modulesettings />
     <tabmodulesettings />
     <definition>Action Grid</definition>
