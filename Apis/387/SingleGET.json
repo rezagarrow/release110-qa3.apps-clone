@@ -1,9 +1,9 @@
 {
   "Name": "Single",
-  "Description": "Returns the information of a Single record in JSON object format.",
+  "Description": "Returns the information of a Single record in JSON object format. Test",
   "HttpMethod": "GET",
   "IsEnabled": true,
-  "OrderIndex": 2,
+  "OrderIndex": 42,
   "CrossDomainPolicy": "PortalAliasesOnly",
   "Inputs": [
     {
@@ -19,7 +19,10 @@
           "Type": "default-required",
           "IsDeleted": false,
           "IsEnabled": false,
-          "OrderIndex": 0
+          "OrderIndex": 0,
+          "Metadata": {
+            "PAP_InternalIdentifier": "Api.InputField.RequiredValidator"
+          }
         }
       ]
     }
@@ -30,7 +33,8 @@
       "OrderIndex": 0,
       "Parameters": {
         "RecordId": "[RecordId]",
-        "OutputToken": "Record"
+        "OutputToken": "Record",
+        "ConnectionString": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
@@ -58,7 +62,8 @@
             "value": "[Record:File]"
           }
         ],
-        "Headers": []
+        "Headers": [],
+        "AllowJsonp": ""
       },
       "IsEnabled": true,
       "ExecutionType": "OnExecute",
